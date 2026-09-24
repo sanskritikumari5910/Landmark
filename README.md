@@ -48,12 +48,18 @@ Landmark/
 
 ## Dataset
 
-The notebook expects:
+The dataset used in this project contains landmark images and
+their corresponding training labels.
 
-- `train.csv` containing image IDs and `landmark_id`
-- An `images/` directory containing the corresponding `.jpg` images
+Due to the large size of the image dataset, the dataset is
+hosted separately on Kaggle.
 
-The notebook uses the image ID to construct the image path.
+**Dataset:** [Landmark Recognition Dataset](https://www.kaggle.com/datasets/sansy060604/landmark-recognition-dataset)
+
+The dataset contains:
+
+- `train.csv` — training labels and image information
+- `images/` — landmark images organized according to the image IDs
 
 ## Model
 
