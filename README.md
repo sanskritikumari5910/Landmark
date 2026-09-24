@@ -141,9 +141,12 @@ model.save("Model")
 
 ## Notes
 
-The uploaded notebook is a Jupyter checkpoint-derived notebook. It has been copied to the cleaner project filename `landmarks_recognition.ipynb` for use in the GitHub repository.
-
-Before presenting the repository as a fully reproducible project, verify the dataset files and run the notebook from start to finish. In particular, the notebook currently contains a function naming mismatch between `encode_laabel` and `encode_label`, which should be corrected before a fresh training run.
+- The project uses a VGG19-based deep learning model for landmark image classification.
+- The dataset is hosted separately on Kaggle because of its large size.
+- The notebook expects `train.csv` and the `images/` directory to be available locally.
+- Image paths are constructed using the first three characters of the image filename.
+- Make sure the dataset folder structure is preserved when running the notebook.
+- The notebook was tested and updated using Google Colab.
 
 ## Author
 
