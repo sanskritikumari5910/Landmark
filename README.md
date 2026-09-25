@@ -1,8 +1,8 @@
-# Landmark Recognition using Deep Learning
+# Landmark Recognition using Data Analysis & Deep Learning
 
 ## Project Overview
 
-This project performs **landmark recognition using deep learning**. The notebook loads landmark image data, performs basic data analysis and visualization, prepares the image data, and builds a **VGG19-based neural network** for landmark classification.
+This project performs **landmark recognition using data analysis & deep learning**. The notebook loads landmark image data, performs basic data analysis and visualization, prepares the image data, and builds a **VGG19-based neural network** for landmark classification.
 
 ## Features
 
